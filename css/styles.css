@@ -1,0 +1,103 @@
+/*************************TAG SELECTORS*************************/
+
+a {
+  text-decoration: none;
+  font-family: 'Patrick Hand', cursive;
+  color: #6f695b;
+  margin: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #AEA48D;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+p {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1rem;
+  color: #6f695b;
+}
+
+/*************************CLASS SELECTORS*************************/
+
+.bio {
+  background-color: #F8EAC9;
+  height: 25%;
+  width: 20%;
+  margin: 13% auto auto 13%;
+  position: fixed;
+  display: inline-block;
+  border: 2px dashed;
+  border-radius: 20px;
+
+}
+
+.bio-gif {
+  position: absolute;
+  width: 45%;
+  left: 0;
+  bottom: 20%;
+}
+
+.content {
+  padding: 25px 25px 35px 25px;
+  background-color: #f8d3c9;
+  width: 28%;
+  margin: .8% 20% .8% auto;
+  border: 2px dashed;
+  border-radius: 20px;
+}
+
+.content-img {
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.content-txt {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.1rem;
+}
+
+.links {
+  margin: 25px 20px auto 135px;
+}
+
+.red-link {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
+  color: white;
+}
+
+.red-link:hover {
+  color: #6f695b;
+}
+
+
+.scroll-box {
+  height: 60%;
+  width: 50%;
+  overflow: scroll;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 25px;
+  right: 12.5px;
+}
+
+/*************************ID SELECTORS*************************/
